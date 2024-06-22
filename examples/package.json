@@ -1,0 +1,4 @@
+"scripts": {
+    "run": "node tools/cli/genome_cli.js"
+}
+
