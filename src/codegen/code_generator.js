@@ -7,7 +7,7 @@ const generateCode = (ast) => {
             return `PUSH ${node.value}`;
         }
         throw new Error(`Unknown node type: ${node.type}`);
-    }).join('\n');
+    });
 };
 
 module.exports = { generateCode };
